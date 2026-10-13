@@ -1,0 +1,86 @@
+forumulate.settings:
+  type: config_object
+  label: 'Forumulate settings'
+  mapping:
+    base_url:
+      type: string
+      label: 'Forumulate address or custom domain'
+    api_url:
+      type: string
+      label: 'API URL (defaults to the address + /api)'
+    org:
+      type: string
+      label: 'Organization'
+    space:
+      type: string
+      label: 'Default space'
+    mode:
+      type: string
+      label: 'Embed mode (script or elements)'
+    elements_src:
+      type: string
+      label: 'Custom elements script URL'
+    cache_ttl:
+      type: integer
+      label: 'Content cache lifetime (seconds)'
+
+block.settings.forumulate_comments:
+  type: block_settings
+  label: 'Forumulate comments block'
+  mapping:
+    space:
+      type: string
+      label: 'Space'
+    theme:
+      type: string
+      label: 'Theme'
+    accent:
+      type: string
+      label: 'Accent color'
+
+block.settings.forumulate_widget:
+  type: block_settings
+  label: 'Forumulate docs widget block'
+  mapping:
+    space:
+      type: string
+      label: 'Space'
+    mode:
+      type: string
+      label: 'Mode'
+    placeholder:
+      type: label
+      label: 'Placeholder'
+
+block.settings.forumulate_changelog:
+  type: block_settings
+  label: 'Forumulate changelog block'
+  mapping:
+    space:
+      type: string
+      label: 'Space'
+
+block.settings.forumulate_items:
+  type: block_settings
+  label: 'Forumulate content list block'
+  mapping:
+    kind:
+      type: string
+      label: 'Kind'
+    space:
+      type: string
+      label: 'Space'
+    limit:
+      type: integer
+      label: 'Limit'
+
+field.formatter.settings.forumulate_comments:
+  type: mapping
+  label: 'Forumulate comments formatter'
+  mapping:
+    space:
+      type: string
+      label: 'Space'
+    theme:
+      type: string
+      label: 'Theme'

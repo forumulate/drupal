@@ -1,0 +1,7 @@
+forumulate.settings:
+  path: '/admin/config/services/forumulate'
+  defaults:
+    _form: '\Drupal\forumulate\Form\SettingsForm'
+    _title: 'Forumulate'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,14 @@
+{
+  "name": "forumulate/forumulate",
+  "description": "Forumulate comments, docs search and changelog as Drupal blocks and a field formatter, plus cached server-rendered content lists.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/forumulate/drupal",
+  "require": {
+    "php": ">=8.1",
+    "drupal/core": "^10 || ^11"
+  },
+  "suggest": {
+    "league/commonmark": "Renders Forumulate Markdown bodies (forumulate.client markdownHtml) as formatted HTML."
+  }
+}

@@ -1,0 +1,7 @@
+base_url: 'https://forumulate.com'
+api_url: ''
+org: ''
+space: ''
+mode: script
+elements_src: 'https://cdn.jsdelivr.net/npm/@forumulate/embed@1'
+cache_ttl: 300

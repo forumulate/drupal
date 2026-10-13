@@ -1,0 +1,5 @@
+forumulate.settings:
+  title: 'Forumulate'
+  description: 'Organization, default space and caching for Forumulate embeds and content.'
+  route_name: forumulate.settings
+  parent: system.admin_config_services

@@ -1,0 +1,4 @@
+services:
+  forumulate.client:
+    class: Drupal\forumulate\ForumulateClient
+    arguments: ['@http_client', '@cache.default', '@config.factory', '@logger.factory']

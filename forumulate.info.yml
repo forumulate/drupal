@@ -1,0 +1,6 @@
+name: Forumulate
+type: module
+description: 'Forumulate comments, docs search and changelog as blocks and a field formatter, plus cached server-rendered lists of your public Forumulate content.'
+package: Web services
+core_version_requirement: ^10 || ^11
+configure: forumulate.settings
